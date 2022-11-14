@@ -15,9 +15,9 @@ public class Dog extends Animal {
     @Override
     public void showMood(boolean mood) {
         if (mood){
-            System.out.println("Logrer");
+            System.out.println("Logrer??");
         }else {
-            System.out.println("knurrer");
+            System.out.println("knurrer??");
         }
     }
 

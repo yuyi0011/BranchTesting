@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
@@ -8,6 +10,13 @@ public class Main {
         cat.eat("dogfood");
         dog.eat("fishes");
 
+        cat.showMood(true);
+        dog.showMood(false);
+
+
+}
+
+
 
     }
-}
+
