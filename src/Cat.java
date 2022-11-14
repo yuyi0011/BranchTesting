@@ -1,5 +1,9 @@
-public class Cat {
-    public void animal{
+public class Cat extends Animal {
 
+
+    @Override
+    public void makeSound() {
+        System.out.println("Miaow");
     }
 }
+
