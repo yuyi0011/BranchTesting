@@ -18,7 +18,22 @@ public class Cat extends Animal {
         } else {
             System.out.println("hvæser");
         }
+        System.out.println(mood? "spinder":"Hvæser");
+        System.out.println("Katten er i "+(mood? "godt":"dårligt"+" humør!"));
     }
+
+    public void erStørreEnd42(int tal){
+        if(tal>42){
+            System.out.println("Tal er for stor.");
+        } else if (tal<42){
+            System.out.println("Tal er for lille");
+        }else {
+            System.out.println("Du gætter korrekt!");
+        }
+
+
+    }
+
 
 
 }
