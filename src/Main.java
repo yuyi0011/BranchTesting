@@ -5,6 +5,7 @@ Cat cat=new Cat();
 
 cat.makeSound();
 dog.makeSound();
-
+cat.eat("dogfood");
+dog.eat("fishes");
     }
 }
