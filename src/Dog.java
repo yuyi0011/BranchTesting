@@ -11,4 +11,6 @@ public class Dog extends Animal {
     public boolean eat(String foodType) {
         return true;
     }
+
+
 }
